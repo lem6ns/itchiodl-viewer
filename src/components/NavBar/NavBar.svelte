@@ -12,6 +12,4 @@
         </svg>`} tooltip={"Home"} />
     <Divider />
     <NavBarIcon icon={`<img src="https://cdn.discordapp.com/avatars/407348579376693260/a071efa4ff242d554fd7848bf377e5b4.png?size=1024" alt="Creator"></img>`}/>
-    <i>creator</i>
-    <i>creator</i>
 </div>

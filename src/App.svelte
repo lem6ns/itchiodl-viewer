@@ -1,11 +1,6 @@
-<script>
-    import NavBar from "./components/NavBar/NavBar.svelte";
-    import View from "./components/View.svelte";
-    import Popup from "./components/Popup.svelte";
-</script>
+<NavBar />
 
-<main class="flex">
-    <NavBar />
+<main class="flex justify-center">
     <h1>ben</h1>
 </main>
 
@@ -15,11 +10,12 @@
     @tailwind utilities;
 
     @layer components {
+        
         .nav-icon {
             @apply relative flex items-center justify-center
             h-12 w-12 mt-2 mb-2 mx-auto shadow-lg
             bg-gray-800 text-white hover:bg-secondary
-            rounded-3xl hover:rounded-xl
+            rounded-3xl hover:rounded-xl cursor-pointer
             transition-all duration-150 ease-linear;
         }
 
@@ -38,8 +34,14 @@
 
         .nav-hr {
             @apply bg-gray-200 dark:bg-gray-800 
-            border border-gray-200 dark:border-gray-800 rounded-full
-            mx-2;
+            border border-gray-200 dark:border-gray-800
+            rounded-full mx-2;
         }
     }
 </style>
+
+<script>
+    import NavBar from "./components/NavBar/NavBar.svelte";
+    import View from "./components/View.svelte";
+    import Popup from "./components/Popup.svelte";
+</script>
