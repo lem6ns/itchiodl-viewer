@@ -8,10 +8,6 @@
   "tokenSecurity": "one-time",
   "enableServer": true,
   "enableNativeAPI": true,
-  "logging": {
-    "enabled": true,
-    "writeToLogFile": true
-  },
   "nativeBlockList": [],
   "modes": {
     "window": {
